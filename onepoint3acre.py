@@ -3,9 +3,11 @@
 Usage Example:
     $ python onepoint3acre.py <output-file> <filtered_page_url> <num_pages>
     
-  output-file:         string. The name for the output markdown file (will be stored at "output-file.md")
-  filtered_page_url:   string. Url to the first page after applying filter at https://www.1point3acres.com/bbs/forum-145-1.html. e.g. for google, use "https://www.1point3acres.com/bbs/forum.php?mod=forumdisplay&fid=145&sortid=311&searchoption[3088][value]=1&searchoption[3088][type]=radio&searchoption[3089][value][3]=3&searchoption[3089][type]=checkbox&searchoption[3090][value]=1&searchoption[3090][type]=radio&searchoption[3046][value]=1&searchoption[3046][type]=radio&searchoption[3109][value]=2&searchoption[3109][type]=radio&sortid=311&filter=sortid&orderby=dateline&page=1"
-  num_pages:           int. The number of pages you want to crawl. Usually 3 is optimal. 
+  output-file:         (string) The name for the output markdown file (will be stored at "output-file.md")
+  filtered_page_url:   (string) Url to the first page after applying filter at 
+                       https://www.1point3acres.com/bbs/forum-145-1.html. 
+                       e.g. for google, use "https://www.1point3acres.com/bbs/forum.php?mod=forumdisplay&fid=145&sortid=311&searchoption[3088][value]=1&searchoption[3088][type]=radio&searchoption[3089][value][3]=3&searchoption[3089][type]=checkbox&searchoption[3090][value]=1&searchoption[3090][type]=radio&searchoption[3046][value]=1&searchoption[3046][type]=radio&searchoption[3109][value]=2&searchoption[3109][type]=radio&sortid=311&filter=sortid&orderby=dateline&page=1"
+  num_pages:           (int) The number of pages you want to crawl. Usually 3 is optimal. 
     
 Sample Output:
   processing G家onsite 面经
